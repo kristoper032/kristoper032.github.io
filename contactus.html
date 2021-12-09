@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/png" href="images/logo.png">
+        <title>Land-Book</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <style>
+          .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 30px;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 50%;
+}
+        </style>
+    </head>
+    <body>
+        
+<!-- //01 -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-light "style="padding: 0px 200px 0px 200px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.png" alt="Logo" style="width:100px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="/biodata.html">Biodata</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="/contactus.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="/gallery.html">Galery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-muted" href="/aboutus.html">About Us</a>
+                  </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+            <ul class="navbar-nav me-1">
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="javascript:void(0)"> Log in</a>
+                </li>
+                <button type="button" class="btn btn-success">Add Website</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- //02 -->
+
+
+<div class="row"style="padding:50px">
+  <div class="col-md-6">
+      <form>
+          <div class="input-group mb-3">
+           <div class="input-group-prepend">
+             <span class="input-group-text">Name : </span>
+           </div>
+            <input type="text" class="form-control" placeholder="First Name">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>  
+      
+      <div class="input-group mb-3"style="padding:0px 0px 0px 0px">
+              <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+              <div class="input-group-append">
+                <span class="input-group-text">@gmail.com</span>
+                
+              </div>
+            </div>
+            <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Username : </span>
+                  </div>
+                   <input type="text" class="form-control" placeholder="Username">
+                   
+            </div>  <hr />
+            <div class="input-group mb-3"style="padding:0px 0px 0px 0px">
+                  <span class="input-group-text">Password : </span>
+                  <input type="password" class="form-control" placeholder="password" id="demo name="password">
+                  <div class="input-group-append">
+                    
+                  </div>
+              </div><hr />
+              <span class="input-group-text">Jenis Kelamin : </span>
+              <div class="form-check" >
+                      <label class="form-check-label"style="padding:0px 20px">
+                        <input type="radio" class="form-check-input" name="optradio">Pria
+                      </label>
+                    </div>
+              <div class="form-check">
+                      <label class="form-check-label"style="padding:0px 20px">
+                        <input type="radio" class="form-check-input" name="optradio">Wanita
+                      </label>
+                    </div><hr />
+              <div class="form-group">
+                      <label for="sel1">Agama:</label>
+                          <select class="form-control" id="sel1">
+                            <option selected>Advent</option>
+                            <option>Islam</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Budha</option>
+                          </select>
+                        </div>
+                        <hr />
+                        <label for="sel2">Hobby:</label>
+                        <div class="form-check">
+                              
+                              <label class="form-check-label"id="sel2">
+                                <input type="checkbox" class="form-check-input" value="">Membaca
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Olahraga
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Ngoding
+                              </label>
+                            </div>
+                            <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="" >Dll
+                                  </label>
+                                </div>
+                                <hr />
+                                <label >Alamat :</label><br />
+                                <textarea name="message" rows="5" cols="60"placeholder="alamat"></textarea>
+
+                                <div class="input-group mb-3">
+                                      <input type="text" class="form-control" placeholder="Tulis Yang ingin ditanyakan">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-primary" type="submit">Submit</button>
+                                        <button class="btn btn-danger" type="reset">Cancel</button>
+                                      </div>
+                                  </div>
+
+            
+
+      </form>
+  </div>
+
+  <div class="col-md-6">
+    <img src="images/toper1.jpg" class="rounded" alt="Cinque Terre"style="width:50%">
+    <img src="images/toper2.jpg" class="rounded" alt="Cinque Terre"style="width:50%">
+    <img src="images/toper3.jpg" class="rounded" alt="Cinque Terre"style="width:50%">
+  </div>
+</div>
+
+
+<!-- //03 -->
+</body>
+<footer>
+    <div class=""style="background-color:#fff;padding: 0px 200px 0px 200px;">
+        <div class="row">
+            <div class="col-sm-3 p-3 ">
+              <img src="images/logo2.png" class="rounded" alt="Cinque Terre"style="width:50%">
+              <p>We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.</p>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-rss"></a>
+            </div>
+            <div class="col-sm-3 p-3 ">
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Privacy & Terms</p>
+            </div>
+            <div class="col-sm-3 p-3 ">
+              <p>Our Guidelines</p>
+              <p>Yes, We are use cookies</p>
+            </div>
+            <div class="col-sm-3 p-3 ">
+              <p><b>The best websites right in your inbox</b></p>
+              <p>We send you a fresh package of inspiration from around the web. No spam, only quality stuff. Promise. :)</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
